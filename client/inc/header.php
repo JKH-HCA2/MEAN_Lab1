@@ -7,13 +7,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item <?php echo $home ?>">
+                    <li class="nav-item <?php if($title == "Home"){echo "active";} ?>">
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
-                    <li class="nav-item <?php echo $teams ?>">
+                    <li class="nav-item <?php if($title == "Teams"){echo "active";} ?>">
                         <a class="nav-link" href="teams.php">Teams</a>
                     </li>
-                    <li class="nav-item <?php echo $register ?>">
+                    <li class="nav-item <?php if($title == "Register"){echo "active";} ?>">
                         <a class="nav-link" href="register.php">Register</a>
                     </li>
                 </ul>
