@@ -1,5 +1,4 @@
 <?php $title="Teams" ?>
-<?php $teams="active" ?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -1,5 +1,4 @@
 <?php $title="Home" ?>
-<?php $home="active" ?>
 <!DOCTYPE html>
 <html lang="en">
 

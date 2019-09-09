@@ -1,5 +1,4 @@
 <?php $title="Register" ?>
-<?php $register="active" ?>
 <!DOCTYPE html>
 <html lang="en">
 
